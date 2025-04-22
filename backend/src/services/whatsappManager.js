@@ -16,7 +16,8 @@ class WhatsAppManager {
             authStrategy: new LocalAuth({ clientId: userId }),
             puppeteer: {
                 headless: true,
-                executablePath: '/usr/bin/google-chrome-stable',
+                executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+
             },
         });
 
